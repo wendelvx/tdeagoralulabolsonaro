@@ -1,0 +1,16 @@
+{
+    "name": "kafka-fraud-detection",
+    "version": "1.0.0",
+    "description": "Detecção de fraude em tempo real com Apache Kafka e Node.js",
+    "main": "producer.js",
+    "type": "module",
+    "scripts": {
+      "start:producer": "node producer.js",
+      "start:consumer": "node consumer.js"
+    },
+    "dependencies": {
+      "kafkajs": "^2.2.4",
+      "sqlite": "^5.1.1",
+      "sqlite3": "^5.1.7"
+    }
+  }
